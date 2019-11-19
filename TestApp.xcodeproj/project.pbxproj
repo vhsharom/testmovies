@@ -17,12 +17,10 @@
 		4664ED35237EECD500A664AB /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4664ED33237EECD200A664AB /* NetworkManager.swift */; };
 		4664ED36237EECD500A664AB /* ErrorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4664ED34237EECD500A664AB /* ErrorManager.swift */; };
 		4664ED3A237EECF500A664AB /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4664ED38237EECF400A664AB /* UIColorExtension.swift */; };
-		4664ED3B237EECF500A664AB /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4664ED39237EECF500A664AB /* StringExtension.swift */; };
 		4664ED3E237EEEAB00A664AB /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4664ED3D237EEEAB00A664AB /* User.swift */; };
 		4664ED40237EEFDD00A664AB /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4664ED3F237EEFDD00A664AB /* BaseVC.swift */; };
 		4664ED44237EF00700A664AB /* MoviesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4664ED43237EF00700A664AB /* MoviesVC.swift */; };
 		4664ED46237EF03D00A664AB /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4664ED45237EF03D00A664AB /* Movie.swift */; };
-		4664ED4A237EF0BD00A664AB /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4664ED48237EF0BD00A664AB /* AlertView.swift */; };
 		4664ED4B237EF0BD00A664AB /* SnackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4664ED49237EF0BD00A664AB /* SnackView.swift */; };
 		4664ED4D237F01ED00A664AB /* MovieDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4664ED4C237F01ED00A664AB /* MovieDetailVC.swift */; };
 		4664ED4F237F033D00A664AB /* loadinganim.json in Resources */ = {isa = PBXBuildFile; fileRef = 4664ED4E237F033D00A664AB /* loadinganim.json */; };
@@ -70,12 +68,10 @@
 		4664ED33237EECD200A664AB /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		4664ED34237EECD500A664AB /* ErrorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorManager.swift; sourceTree = "<group>"; };
 		4664ED38237EECF400A664AB /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
-		4664ED39237EECF500A664AB /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		4664ED3D237EEEAB00A664AB /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		4664ED3F237EEFDD00A664AB /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
 		4664ED43237EF00700A664AB /* MoviesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesVC.swift; sourceTree = "<group>"; };
 		4664ED45237EF03D00A664AB /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
-		4664ED48237EF0BD00A664AB /* AlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 		4664ED49237EF0BD00A664AB /* SnackView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnackView.swift; sourceTree = "<group>"; };
 		4664ED4C237F01ED00A664AB /* MovieDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailVC.swift; sourceTree = "<group>"; };
 		4664ED4E237F033D00A664AB /* loadinganim.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = loadinganim.json; sourceTree = "<group>"; };
@@ -215,7 +211,6 @@
 		4664ED37237EECE700A664AB /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				4664ED39237EECF500A664AB /* StringExtension.swift */,
 				4664ED38237EECF400A664AB /* UIColorExtension.swift */,
 				469C80CA238464C600498FB8 /* ViewControllerExtension.swift */,
 			);
@@ -234,7 +229,6 @@
 		4664ED47237EF0AA00A664AB /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				4664ED48237EF0BD00A664AB /* AlertView.swift */,
 				4664ED49237EF0BD00A664AB /* SnackView.swift */,
 				4664ED51237F039800A664AB /* LoaderView.swift */,
 			);
@@ -514,8 +508,6 @@
 				4664ED3E237EEEAB00A664AB /* User.swift in Sources */,
 				4664ED4B237EF0BD00A664AB /* SnackView.swift in Sources */,
 				4664ED46237EF03D00A664AB /* Movie.swift in Sources */,
-				4664ED4A237EF0BD00A664AB /* AlertView.swift in Sources */,
-				4664ED3B237EECF500A664AB /* StringExtension.swift in Sources */,
 				4664ED03237EEB7E00A664AB /* TestApp.xcdatamodeld in Sources */,
 				4664ECF9237EEB7E00A664AB /* AppDelegate.swift in Sources */,
 				469C80CB238464C600498FB8 /* ViewControllerExtension.swift in Sources */,
