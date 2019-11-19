@@ -1,6 +1,6 @@
 # testmovies
 
-### Features
+### Readme
 #### 1. Generales
 ##### 1. Capas de la aplicación
 - Networking : Capa encargada de realizar las peticiones a la API de MovieDB, configurar el tipo de petición (POST o GET), parámetros, timeout, detección de internet, etc
